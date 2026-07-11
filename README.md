@@ -5,9 +5,6 @@
 <p align="center">
   <img src="assets/logo.png" alt="NoLimi Logo" width="180">
 </p>
-
-<h1 align="center">🤖 NoLimi</h1>
-
 <p align="center">
 An AI-powered virtual assistant built with Python.
 <br>
