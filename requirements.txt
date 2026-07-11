@@ -1,0 +1,13 @@
+SpeechRecognition
+PyAudio
+pyttsx3
+pygame
+gTTS
+requests
+google-genai
+opencv-python
+pywhatkit
+wikipedia
+youtube-search-python
+beautifulsoup4
+edge-tts

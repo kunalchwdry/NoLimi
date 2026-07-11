@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+tempCodeRunnerFile.py
+
+# Generated audio files
+*.mp3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
