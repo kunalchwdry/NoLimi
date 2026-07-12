@@ -5,9 +5,12 @@
 <p align="center">
   <img src="assets/logo.png" alt="NoLimi Logo" width="180">
 </p>
+<<<<<<< HEAD
 
 <h1 align="center"> By @kunal_chwdry</h1>
 
+=======
+>>>>>>> 9b92c55022f0908418413f895f6574e48ca52ed9
 <p align="center">
 An AI-powered virtual assistant built with Python.
 <br>
@@ -130,7 +133,13 @@ Build an AI ecosystem that helps people learn, create, automate, and solve every
 
 # 👨‍💻 Developer
 
+<<<<<<< HEAD
 **Kunal Choudhary**
+=======
+**Kunal choudhary**
+
+@kunal_chwdry_
+>>>>>>> 9b92c55022f0908418413f895f6574e48ca52ed9
 
 Mission 2030 🚀
 
