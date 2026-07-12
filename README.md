@@ -5,12 +5,9 @@
 <p align="center">
   <img src="assets/logo.png" alt="NoLimi Logo" width="180">
 </p>
-<<<<<<< HEAD
 
 <h1 align="center"> By @kunal_chwdry</h1>
 
-=======
->>>>>>> 9b92c55022f0908418413f895f6574e48ca52ed9
 <p align="center">
 An AI-powered virtual assistant built with Python.
 <br>
