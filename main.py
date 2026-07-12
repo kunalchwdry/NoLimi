@@ -6,7 +6,6 @@ from application import application
 rec = sr.Recognizer()        
 if __name__ == "__main__":
     speak("Initializing Nolimiiii....")
-
     while True:
         with sr.Microphone() as source:
             print("to talk speak nolimi...")
@@ -43,6 +42,9 @@ if __name__ == "__main__":
                     command = rec.recognize_google(audio).lower().strip()
                     print(command)
                     process(command)
+                elif "exit" in command:
+                    speak("Exiting nolimi byeee!")
+                    exit()
 
             except sr.UnknownValueError:
                 print("Sorry, I couldn't understand.")
