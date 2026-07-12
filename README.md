@@ -127,8 +127,8 @@ Build an AI ecosystem that helps people learn, create, automate, and solve every
 
 # 👨‍💻 Developer
 
-**Kunal Chwdry**
-
+**Kunal choudhary**
+@kunal_chwdry_
 Mission 2030 🚀
 
 ---
