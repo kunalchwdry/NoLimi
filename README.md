@@ -130,13 +130,11 @@ Build an AI ecosystem that helps people learn, create, automate, and solve every
 
 # 👨‍💻 Developer
 
-<<<<<<< HEAD
-**Kunal Choudhary**
-=======
+
 **Kunal choudhary**
 
 @kunal_chwdry_
->>>>>>> 9b92c55022f0908418413f895f6574e48ca52ed9
+
 
 Mission 2030 🚀
 
