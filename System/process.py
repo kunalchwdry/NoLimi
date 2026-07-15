@@ -1,19 +1,19 @@
 import webbrowser
 import requests
 import requests
-from speaker import speak
-from AI import aiprocess
-from application import application
+from speaker.speaker import speak
+from AI.AI import aiprocess
+from system.application import application
 import pywhatkit
 from dotenv import load_dotenv
 from googlesearch import search
 import os
 from pywhatkit import playonyt
 load_dotenv()
-from Browser import webopen
+from system.Browser import webopen
 import re
-from volume import handle_volume
-from Brightness import handle_brightness
+from system.volume import handle_volume
+from system.brightness import handle_brightness
 newsapi = os.getenv("NEWS_API_KEY")
 def process(c):
     if application(c):

@@ -1,6 +1,7 @@
 import webbrowser
 import ddgs
-from speaker import speak
+from speaker.speaker import speak
+
 def webopen(c):
         try:
             query = c[5:].strip()  # Removes "open "

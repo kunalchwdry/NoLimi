@@ -1,8 +1,7 @@
-from process import process
-from speaker import speak
-from AI import aiprocess
+from system.process import process
+from speaker.speaker import speak
+from AI.AI import aiprocess
 import speech_recognition as sr
-from application import application
 rec = sr.Recognizer()        
 if __name__ == "__main__":
     speak("Initializing Nolimiiii....")

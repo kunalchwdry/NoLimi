@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from google import genai
-from speaker import speak
+from speaker.speaker import speak
 
 # Load variables from .env
 load_dotenv()

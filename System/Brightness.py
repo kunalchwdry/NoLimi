@@ -1,6 +1,6 @@
 import re
 import screen_brightness_control as sbc
-from speaker import speak
+from speaker.speaker import speak
 
 
 def set_brightness(level):
