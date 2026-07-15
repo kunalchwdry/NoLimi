@@ -6,7 +6,7 @@
   <img src="assets/logo.png" alt="NoLimi Logo" width="180">
 </p>
 
-<h1 align="center">🚀 NoLimi v2.0</h1>
+<h1 align="center">🚀 NoLimi v.2</h1>
 
 <p align="center">
 Developed by <strong>Kunal Choudhary</strong>
@@ -19,7 +19,7 @@ Developed by <strong>Kunal Choudhary</strong>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows">
-  <img src="https://img.shields.io/badge/Version-v2.0-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-v.2-success?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 </p>
