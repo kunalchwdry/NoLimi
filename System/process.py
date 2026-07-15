@@ -10,7 +10,10 @@ from googlesearch import search
 import os
 from pywhatkit import playonyt
 load_dotenv()
-import ddgs
+from Browser import webopen
+import re
+from volume import handle_volume
+from Brightness import handle_brightness
 newsapi = os.getenv("NEWS_API_KEY")
 def process(c):
     if application(c):
@@ -34,29 +37,27 @@ def process(c):
 
     elif "open gemenai" in c.lower():#edit
         webbrowser.open("https://gemini.com")
+    elif any(x in c.lower() for x in [
+    "volume",
+    "mute",
+    "increase volume",
+    "decrease volume",
+    "getvolume"
+    ]):
+        handle_volume(c, speak)
+    elif any(word in c.lower() for word in [
+    "brightness",
+    "increase brightness",
+    "decrease brightness",
+    "set brightness",
+    "maximum brightness",
+    "minimum brightness",
+    "current brightness",
+    "get brightness"
+    ]):
+        handle_brightness(c)
     elif c.lower().startswith("open"):
-        try:
-            query = c[5:].strip()  # Removes "open "
-            results = ddgs.DDGS().text(query, max_results=5)
-            for i in results:
-                if "wiki" in i['href']:
-                    continue
-                elif "encyclo"in i['href']:
-                    continue
-                elif "media" in i['href']:
-                    continue
-                elif 'pedia' in i['href']:
-                    continue
-                else:
-                    speak(f"Opening {query[1:]}")
-                    webbrowser.open(i['href'])
-                    break
-            else:
-                speak(f"Sorry, I couldn't find any results for {query}.")
-        except Exception as e:
-            print(f"Error occurred :{e}")
-            speak(f"Sorry, I encountered an error while searching the site.") 
-    
+        webopen(c)
     elif c.lower().startswith("play"):
         query = c[5:]  # Removes "play "
         speak(f"Playing {query}")
